@@ -11,8 +11,6 @@ newToDo.addEventListener('keypress', function (e) {
         makeItem(newToDo, newToDoType);
         //figure out need for var below
         //var newToDoType = document.querySelector('#to-do-type')
-MessageEvent
-
     }
 })
 
