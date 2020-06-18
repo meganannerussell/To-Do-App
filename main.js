@@ -5,13 +5,13 @@ var newToDoType = document.querySelector('#to-do-type')
 
 /*newToDo.addEventListener('input', function (e) {
 })*/  // --- on an event, triggers a callback function   
-
 newToDo.addEventListener('keypress', function (e) {
     if (e.keyCode === 13) {
         console.log(newToDo, newToDoType)
         makeItem(newToDo, newToDoType);
         //figure out need for var below
         //var newToDoType = document.querySelector('#to-do-type')
+MessageEvent
 
     }
 })
