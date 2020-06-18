@@ -14,10 +14,6 @@ newToDo.addEventListener('keypress', function (e) {
     }
 })
 
-
-
-
-
 /*
 newToDoType.addEventListener('input', function(e){
     if('input')
