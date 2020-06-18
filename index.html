@@ -6,7 +6,7 @@
 
 <body>
   <div class="container">
-    <img src="background.jpg"/>
+    <img id="img" src="background.jpg"/>
   <h1 class="heading">To Do App</h1>
 
   </div>
@@ -20,14 +20,15 @@
       <option value='work-item'>Work</option>
       <option value='admin-item'>Admin</option>
     </select>
+    <!--<div class="divstyle"> -->
+      <button class="buttonstyle">add item</button>
+    <!--</div> -->
   </div>
-  <div class="divstyle">
-    <button class="buttonstyle">add item</button>
-  </div>
+
   <div class="list">
     <div>
-      <h2> Chores</h2>
-      <ul id='chores-list'>
+      <h2 class="list-heading"> Chores</h2>
+      <ul class="list-contents"id='chores-list'>
         <li>megan</li>
         <li>nicol</li>
         <li>jason</li>
@@ -35,15 +36,15 @@
     </div>
 
     <div>
-      <h2>Work</h2>
-      <ul id='work-list'>
+      <h2 class="list-heading">Work</h2>
+      <ul class="list-contents" id='work-list'>
         <!-- <li></li> -->
       </ul>
     </div>
 
     <div>
-      <h2>Admin</h2>
-      <ul id='admin-list'>
+      <h2 class="list-heading">Admin</h2>
+      <ul class="list-contents" id='admin-list'>
         <!-- <li></li> -->
       </ul>
     </div>
