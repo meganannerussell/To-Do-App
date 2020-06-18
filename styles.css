@@ -6,6 +6,12 @@
     font-style: normal;
     font-weight: 140;
     font-size: 100;
+
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
 }
 
 #new-to-do {
@@ -16,6 +22,52 @@
     color: darkgrey;
 }
 
+#new-to-do:focus{
+    outline: none;
+}
+
 .divstyle{
     text-align: center;
 }
+
+#to-do-type{
+    padding: 10;
+    border-radius: 40px;
+    border-color: darkgrey;
+    color: cadetblue;
+}
+
+to-do-type:hover{
+    color: black;
+}
+
+#to-do-type:focus{
+    outline: none;
+}
+
+.buttonstyle{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 40px;
+    border: solid 0px;
+    background-color: cadetblue;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
